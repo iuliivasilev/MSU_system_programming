@@ -1,0 +1,12 @@
+int Start1(int q.int w.int p.){
+ int d5.
+ bool c = true.
+ if (not true) 1.
+ return q+w+p.
+}
+int kill(int t.){1. return t.}
+int Start() {
+ int a=3.
+ while (a-1 > 2) do {a = a - 1. Up. 1+2+3+4.}
+ return kill(Start1(1,2,777)).
+}

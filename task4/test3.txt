@@ -1,0 +1,90 @@
+int Start() { [1 -left of map, 2 -  right of map, 3 - top of map, 4 - bottom of map.]
+ int a = 0,c.
+ bool b=true.
+ Take (a).
+ if (a == 13)while(true) do {
+      c = 2.
+      while ((a!=23)and(a!=2)and (a!=c)) do {
+          Right.
+          Take(a).
+          if (a == 0) {Setbomb.either Up. or {Down. c = 24.}}
+      }
+      Setbomb.
+      c = 4.
+      while ((a!=24)and (a!=4)and (a!=c)) do {
+          Down.
+          Take(a).
+          if (a == 0) {Setbomb.either Right. or {Left.c = 14.}}
+      }
+      Setbomb.
+      c = 1.
+      while ((a!=14) and (a!=1)and (a!=c)) do {Left.Take(a).if (a == 0) {Setbomb.either {Up.c=13.} or Down.}}
+      Setbomb.
+      c = 3.
+      while ((a!=13)and(a!=3)and (a!=c)) do {Up.Take(a).if (a == 0) {Setbomb.either {Right.c=23.} or Left.}}
+ }else 
+ if (a == 23)while(true) do {
+      c = 4.
+      while ((a!=24)and (a!=4)and (a!=c)) do {
+          Down.
+          Take(a).
+          if (a == 0) {Setbomb.either Right. or {Left.c = 14.}}
+      }
+      Setbomb.
+      c = 1.
+      while ((a!=14) and (a!=1)and (a!=c)) do {Left.Take(a).if (a == 0) {Setbomb.either {Up.c=13.} or Down.}}
+      Setbomb.
+      c = 3.
+      while ((a!=13)and(a!=3)and (a!=c)) do {Up.Take(a).if (a == 0) {Setbomb.either {Right.c=23.} or Left.}}
+      Setbomb.
+      c = 2.
+      while ((a!=23)and(a!=2)and (a!=c)) do {
+          Right.
+          Take(a).
+          if (a == 0) {Setbomb.either Up. or {Down. c = 24.}}
+      }
+ }else 
+ if (a == 24)while(true) do {
+      c = 1.
+      while ((a!=14) and (a!=1)and (a!=c)) do {Left.Take(a).if (a == 0) {Setbomb.either {Up.c=13.} or Down.}}
+      Setbomb.
+      c = 3.
+      while ((a!=13)and(a!=3)and (a!=c)) do {Up.Take(a).if (a == 0) {Setbomb.either {Right.c=23.} or Left.}}
+      Setbomb.
+      c = 2.
+      while ((a!=23)and(a!=2)and (a!=c)) do {
+          Right.
+          Take(a).
+          if (a == 0) {Setbomb.either Up. or {Down. c = 24.}}
+      }
+      Setbomb.
+      c = 4.
+      while ((a!=24)and (a!=4)and (a!=c)) do {
+          Down.
+          Take(a).
+          if (a == 0) {Setbomb.either Right. or {Left.c = 14.}}
+      }
+ }else 
+ if (a == 14)while(true) do {
+      c = 3.
+      while ((a!=13)and(a!=3)and (a!=c)) do {Up.Take(a).if (a == 0) {Setbomb.either {Right.c=23.} or Left.}}
+      Setbomb.
+      c = 2.
+      while ((a!=23)and(a!=2)and (a!=c)) do {
+          Right.
+          Take(a).
+          if (a == 0) {Setbomb.either Up. or {Down. c = 24.}}
+      }
+      Setbomb.
+      c = 4.
+      while ((a!=24)and (a!=4)and (a!=c)) do {
+          Down.
+          Take(a).
+          if (a == 0) {Setbomb.either Right. or {Left.c = 14.}}
+      }
+      Setbomb.
+      c = 1.
+      while ((a!=14) and (a!=1)and (a!=c)) do {Left.Take(a).if (a == 0) {Setbomb.either {Up.c=13.} or Down.}}
+ }
+ return 1.
+}

@@ -1,0 +1,15 @@
+int Start() { [1 -left of map, 2 -  right of map, 3 - top of map, 4 - bottom of map.]
+ int a = 0.
+ bool b=true.
+ Take (a).
+ if (a == 13) while(true) do {
+      while ((a!=23)and(a!=2)) do {Right.Take(a).}
+      Setbomb.
+      while ((a!=24)and (a!=4)) do {Down.Take(a).}
+      Setbomb.
+      while ((a!=14) and (a!=1)) do {Left.Take(a).}
+      Setbomb.
+      while ((a!=13)and(a!=3)) do {Up.Take(a).}
+    }
+ return 1.
+}
